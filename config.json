@@ -1,0 +1,9 @@
+{
+  "oauth": {
+    "client_id": "portifolio-corona",
+    "client_secret": "EL4cBrVSYCZ5wMAGMhnTgUdmZk9FAhMk",
+    "access_token_lifetime": 60000,
+    "refresh_token_lifetime": 604800,
+    "jwt_secret": "dX^H]O_xI_y-(/c"
+  }
+}
