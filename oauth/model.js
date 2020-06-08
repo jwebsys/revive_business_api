@@ -64,6 +64,8 @@ async function generateAccessToken(client, user) {
       user: {
         id: user._id,
         email: user.email,
+        primeiroNome: user.nome.split(" ")[0]
+
       },
       sub: user._id,
       aud: client.id,

@@ -25,10 +25,9 @@ const senha_banco = 'portifolio-corona-api'
 const { protect } = require('./oauth')
 
 mongoose.connect(
-  'mongodb+srv://REVIVE-BUSINES-API:' +
+  'mongodb+srv://portifolio-corona-api:' +
   senha_banco +
-  '@cluster0-iddjy.gcp.mongodb.net/test?retryWrites=true&w=majority',
-
+  '@portifolio-corona-api-mw9mh.mongodb.net/test?retryWrites=true&w=majority',
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
 
